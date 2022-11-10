@@ -1,0 +1,25 @@
+.container .blogs {
+    /* background-color: red; */
+    width: 100%;
+    min-height: 90vh;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 10px;
+
+}
+
+.notBlog {
+    margin-top: 5rem;
+}
+
+.notBlog h4 {
+    margin: 1rem 0;
+}
+
+.notBlog a {
+    color: #FC2A40
+}

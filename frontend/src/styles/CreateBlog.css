@@ -1,0 +1,97 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+
+}
+
+.form {
+    width: 100%;
+}
+
+.form-gorup {
+    margin: 5px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.error {
+    padding: 10px;
+    color: #FC2A40
+}
+
+.form-gorup h3 {
+    color: #000000;
+    font-size: 16px
+}
+
+.form-gorup input {
+    outline: none;
+    border: 1px solid #FC2A40;
+    padding: .7rem 1.5rem;
+    border-radius: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.form-gorup textarea {
+    display: flex;
+    justify-content: center;
+    outline: none;
+    border: 1px solid #FC2A40;
+    border-radius: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.form-gorup button {
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: #FC2A40;
+    padding: .7rem 1.5rem;
+    border-radius: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.form-gorup button:disabled {
+    cursor: not-allowed;
+    opacity: .6;
+}
+
+.image-display {
+    width: 100%;
+    aspect-ratio: 1/.6;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.image-display img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: center;
+}
+
+.card button {
+
+    color: #FC2A40;
+}
+
+label {
+    outline: none;
+    border: 1px solid #FC2A40;
+    padding: .7rem 1.5rem;
+    border-radius: 16px;
+    text-align: center;
+    width: 100%;
+    color: #FC2A40;
+}
