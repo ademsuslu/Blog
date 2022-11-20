@@ -10,7 +10,7 @@ const initialState = {
   isLoading: false,
   message: "",
 };
-const REGURL = "https://blog-j3fr.onrender.com";
+const REGURL = "https://blog-j3fr.onrender.com/api/users/";
 // Register
 const registerUser = createAsyncThunk("auth/registerUser", async (userData) => {
   try {
