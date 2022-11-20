@@ -9,7 +9,7 @@ const initialState = {
   isLoading: false,
   message: "",
 };
-const URL = "http://localhost:5000/api/blogs";
+const URL = "https://blog-j3fr.onrender.com/api/blogs";
 // Create Blog
 const createBlog = createAsyncThunk(
   "blog/createBlog",
