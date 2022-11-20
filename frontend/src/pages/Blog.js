@@ -20,7 +20,7 @@ export default function Blog() {
     }
     dispatch(getBlog());
   }, [user, navigate, isError, message, dispatch]);
-  console.log(blogs);
+
   return (
     <>
       <section className="container">
